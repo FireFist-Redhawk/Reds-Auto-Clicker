@@ -1,4 +1,4 @@
-# Reds-Auto-Tool
+# Reds-Auto-Clicker
 
 ## Software Requirements
 - LabVIEW 2021 Community Edition
