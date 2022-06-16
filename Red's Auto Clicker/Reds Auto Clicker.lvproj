@@ -49,6 +49,7 @@
 			<Item Name="Alter Motor Profile.vi" Type="VI" URL="../SubVIs/Alter Motor Profile.vi"/>
 			<Item Name="Ark Dino Leveler.vi" Type="VI" URL="../SubVIs/Ark Dino Leveler.vi"/>
 			<Item Name="Bring Window to Front.vi" Type="VI" URL="../SubVIs/Bring Window to Front.vi"/>
+			<Item Name="Capture Screenshot.vi" Type="VI" URL="../SubVIs/Capture Screenshot.vi"/>
 			<Item Name="Convert Timestamp to String.vi" Type="VI" URL="../SubVIs/Convert Timestamp to String.vi"/>
 			<Item Name="Custom Automation Tool.vi" Type="VI" URL="../SubVIs/Custom Automation Tool.vi"/>
 			<Item Name="Display Data to Table.vi" Type="VI" URL="../SubVIs/Display Data to Table.vi"/>
@@ -65,7 +66,6 @@
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
 			<Item Name="Tribe Logger.vi" Type="VI" URL="../SubVIs/Tribe Logger.vi"/>
 		</Item>
-		<Item Name="Capture Screenshot.vi" Type="VI" URL="../SubVIs/Capture Screenshot.vi"/>
 		<Item Name="R-cat.ico" Type="Document" URL="../Globals/R-cat.ico"/>
 		<Item Name="R-cat2.ico" Type="Document" URL="../Globals/R-cat2.ico"/>
 		<Item Name="Red&apos;s Auto Clicker.vi" Type="VI" URL="../Red&apos;s Auto Clicker.vi"/>
