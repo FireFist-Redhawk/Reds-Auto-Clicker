@@ -45,8 +45,6 @@
 				<Item Name="Mouse Up.vi" Type="VI" URL="../SubVIs/KBM Simulation/Mouse Up.vi"/>
 			</Item>
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
-			<Item Name="Alter Motor Profile V2.vi" Type="VI" URL="../SubVIs/Alter Motor Profile V2.vi"/>
-			<Item Name="Alter Motor Profile.vi" Type="VI" URL="../SubVIs/Alter Motor Profile.vi"/>
 			<Item Name="Ark Dino Leveler.vi" Type="VI" URL="../SubVIs/Ark Dino Leveler.vi"/>
 			<Item Name="Bring Window to Front.vi" Type="VI" URL="../SubVIs/Bring Window to Front.vi"/>
 			<Item Name="Capture Screenshot.vi" Type="VI" URL="../SubVIs/Capture Screenshot.vi"/>
@@ -183,6 +181,8 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
+			<Item Name="Alter Motor Profile V2.vi" Type="VI" URL="../SubVIs/Alter Motor Profile V2.vi"/>
+			<Item Name="Alter Motor Profile.vi" Type="VI" URL="../SubVIs/Alter Motor Profile.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
