@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="21008000">
+<Project Type="Project" LVVersion="23008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -102,6 +102,8 @@
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
 				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
+				<Item Name="Alter Motor Profile V2.vi" Type="VI" URL="/&lt;vilib&gt;/Fire Fist Gaming/Dependency Installer/Alter Motor Profile V2.vi"/>
+				<Item Name="Alter Motor Profile.vi" Type="VI" URL="/&lt;vilib&gt;/Fire Fist Gaming/Dependency Installer/Alter Motor Profile.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
@@ -175,14 +177,13 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 			</Item>
-			<Item Name="Alter Motor Profile V2.vi" Type="VI" URL="../SubVIs/Alter Motor Profile V2.vi"/>
-			<Item Name="Alter Motor Profile.vi" Type="VI" URL="../SubVIs/Alter Motor Profile.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -242,46 +243,31 @@
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{46FB1DD2-CA29-416E-8E5F-B8AC0E4EFFB2}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2021</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{3743B708-4C36-4E0C-8FA9-9A4D90DBB68C}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2023 Q1 (64-bit)</Property>
 				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2021</Property>
-				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI TDM Streaming 21.0</Property>
-				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Logos 23.1</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
-				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI mDNS Responder 23.0</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2021</Property>
-				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{764CB77E-F1C0-34FF-B1B9-3AF23D162D6B}</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
 				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2021 Non-English Support.</Property>
-				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{61B01DDE-3406-339D-9ABC-358C2D13CC73}</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
 				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI Logos 21.0</Property>
-				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
 				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2021</Property>
-				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
-				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI mDNS Responder 21.0</Property>
-				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{251E8668-4013-3671-857C-61D46B2AC827}</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI TDM Streaming 23.1</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">7</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{B5F88810-5FC9-3E79-B786-404C9235ADC9}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -292,8 +278,8 @@
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Red's Auto Tool</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">21008000</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{C4C51753-A5D4-41CA-AD5C-3CBDF8A92E3B}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
@@ -336,7 +322,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{26386124-F7C2-4D55-BEB9-6C3BD34C70C7}</Property>
-				<Property Name="Bld_version.build" Type="Int">16</Property>
+				<Property Name="Bld_version.build" Type="Int">17</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Red's Auto-Clicker.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Red's Auto-Clicker/Red's Auto-Clicker/Red's Auto-Clicker.exe</Property>
@@ -367,46 +353,43 @@
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{46FB1DD2-CA29-416E-8E5F-B8AC0E4EFFB2}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2021</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{3743B708-4C36-4E0C-8FA9-9A4D90DBB68C}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2023 Q1 (64-bit)</Property>
 				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2021</Property>
-				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2023 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{E0D3C7F9-4512-438F-8123-E2050457972B}</Property>
 				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI TDM Streaming 21.0</Property>
-				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI TDM Streaming 23.1</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2020</Property>
-				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2020 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
 				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2021</Property>
-				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{764CB77E-F1C0-34FF-B1B9-3AF23D162D6B}</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2023</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{0270E5BD-6304-3B50-B4C4-A575BC480F4F}</Property>
 				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI LabVIEW Runtime 2021 Non-English Support.</Property>
-				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{61B01DDE-3406-339D-9ABC-358C2D13CC73}</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 23.1</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI Logos 21.0</Property>
-				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2023 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
 				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2021</Property>
-				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{0960380B-EA86-4E0C-8B57-14CD8CCF2C15}</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI mDNS Responder 23.0</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI mDNS Responder 21.0</Property>
-				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
 				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
 				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{251E8668-4013-3671-857C-61D46B2AC827}</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{B5F88810-5FC9-3E79-B786-404C9235ADC9}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
@@ -416,9 +399,9 @@
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">21008000</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{FEC35B86-A05F-4483-96F3-9780C8F92958}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
@@ -456,9 +439,9 @@
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.16</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">21008000</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.17</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_distID" Type="Str">{8FBD55A1-51C7-4B09-A124-86BD687E501E}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
