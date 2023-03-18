@@ -208,21 +208,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Red's Auto Tool/Red's Auto Tool</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Tool/Red's Auto Tool</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2979835A-9457-4DA3-B755-F50381C7F089}</Property>
 				<Property Name="Bld_version.build" Type="Int">13</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Red's Auto Tool.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Red's Auto Tool/Red's Auto Tool/Red's Auto Tool.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Tool/Red's Auto Tool/Red's Auto Tool.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Red's Auto Tool/Red's Auto Tool/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Tool/Red's Auto Tool/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/R-cat2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{28ED1E6F-4E57-4F5A-9CC9-6C74A531C324}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87BC0470-268A-475B-BD7D-464D6916170E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Red's Auto Clicker.vi</Property>
@@ -249,30 +250,41 @@
 				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
 				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
 				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Logos 23.1</Property>
-				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Deployment Framework 2023 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{E0D3C7F9-4512-438F-8123-E2050457972B}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI TDM Streaming 23.1</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
 				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI mDNS Responder 23.0</Property>
-				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI Error Reporting 2020 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
 				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2023</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{0270E5BD-6304-3B50-B4C4-A575BC480F4F}</Property>
 				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 23.1</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
 				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2023 (64-bit)</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
 				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI TDM Streaming 23.1</Property>
-				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">7</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI mDNS Responder 23.0</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2020</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">11</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{B5F88810-5FC9-3E79-B786-404C9235ADC9}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Red's Auto Tool/Red's Auto Tool Full Installer</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Tool/Red's Auto Tool Full Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Red's Auto Tool Full Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
@@ -318,21 +330,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/Red's Auto-Clicker/Red's Auto-Clicker</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{26386124-F7C2-4D55-BEB9-6C3BD34C70C7}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Red's Auto-Clicker.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/Red's Auto-Clicker/Red's Auto-Clicker/Red's Auto-Clicker.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker/Red's Auto-Clicker.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/Red's Auto-Clicker/Red's Auto-Clicker/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Globals/Papirus-Team-Papirus-Apps-Krusader-root.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{28ED1E6F-4E57-4F5A-9CC9-6C74A531C324}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87BC0470-268A-475B-BD7D-464D6916170E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Red's Auto Clicker.vi</Property>
@@ -393,13 +406,12 @@
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Red's Auto-Clicker/Red's Auto-Clicker Full Installer</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker Full Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Red's Auto-Clicker Full Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -433,13 +445,12 @@
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Red's Auto-Clicker/Red's Auto-Clicker Updater</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker Updater</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Red's Auto-Clicker Updater</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.17</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.18</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23108276</Property>
 				<Property Name="MSI_distID" Type="Str">{8FBD55A1-51C7-4B09-A124-86BD687E501E}</Property>
