@@ -3,9 +3,9 @@
 My first open-source project! Install the dependencies, look through the code, and learn a little about LabVIEW if you want. If you start getting dangerous with it, feel free to add feature requests, or even add your own features and submit a pull request for me to review. Software development is a whole lot funner when it's paired with one's hobbies! Or if you'd rather just get going, simply go to the Releases page and download the installer for the compiled executable.
 
 ## Software Requirements - Full Development Environment
-- LabVIEW 2021 Community Edition
-- VI Package Manager 2021
-- Latest version of Dependency Installer.vip
+- LabVIEW 2023 or higher
+- VI Package Manager 2024 or higher
+- Latest version of Dependency Installer.vip (installs OpenG and MGI toolkits)
 
 ## System Requirements - Full Development Environment
 - Windows 10 or higher
