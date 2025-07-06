@@ -13,6 +13,8 @@
 		<Item Name="CTLs" Type="Folder">
 			<Item Name="Dump Stat.ctl" Type="VI" URL="../CTLs/Dump Stat.ctl"/>
 			<Item Name="FGV Actions.ctl" Type="VI" URL="../CTLs/FGV Actions.ctl"/>
+			<Item Name="Macro Cluster v1.0.ctl" Type="VI" URL="../CTLs/Macro Cluster v1.0.ctl"/>
+			<Item Name="Macro Cluster v2.0.ctl" Type="VI" URL="../CTLs/Macro Cluster v2.0.ctl"/>
 			<Item Name="Main Modes.ctl" Type="VI" URL="../CTLs/Main Modes.ctl"/>
 			<Item Name="Step Type.ctl" Type="VI" URL="../CTLs/Step Type.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../CTLs/Step.ctl"/>
@@ -50,24 +52,22 @@
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
 			<Item Name="Alter Macro.vi" Type="VI" URL="../SubVIs/Alter Macro.vi"/>
 			<Item Name="Alter Macro V2.vi" Type="VI" URL="../SubVIs/Alter Macro V2.vi"/>
-			<Item Name="Bring Window to Front.vi" Type="VI" URL="../SubVIs/Bring Window to Front.vi"/>
 			<Item Name="Capture Screenshot.vi" Type="VI" URL="../SubVIs/Capture Screenshot.vi"/>
 			<Item Name="Convert Timestamp to String.vi" Type="VI" URL="../SubVIs/Convert Timestamp to String.vi"/>
 			<Item Name="Display Data to Table.vi" Type="VI" URL="../SubVIs/Display Data to Table.vi"/>
+			<Item Name="Get Hotkey.vi" Type="VI" URL="../SubVIs/Get Hotkey.vi"/>
 			<Item Name="Hotkey FGV.vi" Type="VI" URL="../SubVIs/Hotkey FGV.vi"/>
 			<Item Name="Is Step in Range.vi" Type="VI" URL="../SubVIs/Is Step in Range.vi"/>
-			<Item Name="Load Preset.vi" Type="VI" URL="../SubVIs/Load Preset.vi"/>
-			<Item Name="Perform Auto-Click.vi" Type="VI" URL="../SubVIs/Perform Auto-Click.vi"/>
 			<Item Name="Prompt for Step.vi" Type="VI" URL="../SubVIs/Prompt for Step.vi"/>
 			<Item Name="Read Monitor Resolution.vi" Type="VI" URL="../SubVIs/Read Monitor Resolution.vi"/>
-			<Item Name="Recalculate Stats.vi" Type="VI" URL="../SubVIs/Recalculate Stats.vi"/>
+			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
 			<Item Name="Save Preset.vi" Type="VI" URL="../SubVIs/Save Preset.vi"/>
 			<Item Name="Settings.vi" Type="VI" URL="../SubVIs/Settings.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
-			<Item Name="Get Hotkey.vi" Type="VI" URL="../SubVIs/Get Hotkey.vi"/>
 		</Item>
 		<Item Name="Custom Automation Tool.vi" Type="VI" URL="../Custom Automation Tool.vi"/>
-		<Item Name="Red&apos;s Auto Tool.vi" Type="VI" URL="../Red&apos;s Auto Tool.vi"/>
+		<Item Name="Red&apos;s Auto Clicker.vi" Type="VI" URL="../Red&apos;s Auto Clicker.vi"/>
+		<Item Name="State Data.ctl" Type="VI" URL="../CTLs/State Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
@@ -164,7 +164,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Ark Dino Leveler.vi" Type="VI" URL="../SubVIs/Ark Dino Leveler.vi"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -172,7 +171,6 @@
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Tribe Logger.vi" Type="VI" URL="../SubVIs/Tribe Logger.vi"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -211,7 +209,7 @@
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Red's Auto Tool.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Red's Auto Clicker.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
