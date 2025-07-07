@@ -1,5 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="23008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="NI.Project.SaveVersion" Type="Str">Editor version</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -13,9 +16,12 @@
 		<Item Name="CTLs" Type="Folder">
 			<Item Name="Dump Stat.ctl" Type="VI" URL="../CTLs/Dump Stat.ctl"/>
 			<Item Name="FGV Actions.ctl" Type="VI" URL="../CTLs/FGV Actions.ctl"/>
+			<Item Name="Hotkey Type.ctl" Type="VI" URL="../CTLs/Hotkey Type.ctl"/>
+			<Item Name="Hotkey Values.ctl" Type="VI" URL="../CTLs/Hotkey Values.ctl"/>
 			<Item Name="Macro Cluster v1.0.ctl" Type="VI" URL="../CTLs/Macro Cluster v1.0.ctl"/>
 			<Item Name="Macro Cluster v2.0.ctl" Type="VI" URL="../CTLs/Macro Cluster v2.0.ctl"/>
 			<Item Name="Main Modes.ctl" Type="VI" URL="../CTLs/Main Modes.ctl"/>
+			<Item Name="State Data.ctl" Type="VI" URL="../CTLs/State Data.ctl"/>
 			<Item Name="Step Type.ctl" Type="VI" URL="../CTLs/Step Type.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../CTLs/Step.ctl"/>
 		</Item>
@@ -52,22 +58,20 @@
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
 			<Item Name="Alter Macro.vi" Type="VI" URL="../SubVIs/Alter Macro.vi"/>
 			<Item Name="Alter Macro V2.vi" Type="VI" URL="../SubVIs/Alter Macro V2.vi"/>
-			<Item Name="Capture Screenshot.vi" Type="VI" URL="../SubVIs/Capture Screenshot.vi"/>
-			<Item Name="Convert Timestamp to String.vi" Type="VI" URL="../SubVIs/Convert Timestamp to String.vi"/>
+			<Item Name="Convert Hotkey to String.vi" Type="VI" URL="../SubVIs/Convert Hotkey to String.vi"/>
 			<Item Name="Display Data to Table.vi" Type="VI" URL="../SubVIs/Display Data to Table.vi"/>
 			<Item Name="Get Hotkey.vi" Type="VI" URL="../SubVIs/Get Hotkey.vi"/>
-			<Item Name="Hotkey FGV.vi" Type="VI" URL="../SubVIs/Hotkey FGV.vi"/>
 			<Item Name="Is Step in Range.vi" Type="VI" URL="../SubVIs/Is Step in Range.vi"/>
+			<Item Name="Load Macro.vi" Type="VI" URL="../SubVIs/Load Macro.vi"/>
 			<Item Name="Prompt for Step.vi" Type="VI" URL="../SubVIs/Prompt for Step.vi"/>
 			<Item Name="Read Monitor Resolution.vi" Type="VI" URL="../SubVIs/Read Monitor Resolution.vi"/>
+			<Item Name="Save Hotkey.vi" Type="VI" URL="../SubVIs/Save Hotkey.vi"/>
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
-			<Item Name="Save Preset.vi" Type="VI" URL="../SubVIs/Save Preset.vi"/>
 			<Item Name="Settings.vi" Type="VI" URL="../SubVIs/Settings.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
+			<Item Name="Perform Step.vi" Type="VI" URL="../SubVIs/Perform Step.vi"/>
 		</Item>
 		<Item Name="Custom Automation Tool.vi" Type="VI" URL="../Custom Automation Tool.vi"/>
-		<Item Name="Red&apos;s Auto Clicker.vi" Type="VI" URL="../Red&apos;s Auto Clicker.vi"/>
-		<Item Name="State Data.ctl" Type="VI" URL="../CTLs/State Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
@@ -84,7 +88,6 @@
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Acquire Input Data.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/Acquire Input Data.vi"/>
-				<Item Name="Add State(s) to Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Add State(s) to Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -97,6 +100,7 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="Enum to Array of Enums.vim" Type="VI" URL="/&lt;vilib&gt;/numeric/Enum to Array of Enums.vim"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrorDescriptions.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/inputDevices.llb/ErrorDescriptions.vi"/>
@@ -141,7 +145,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Parse State Queue__JKI_lib_State_Machine.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_JKI Toolkits/State Machine/_JKI_lib_State_Machine.llb/Parse State Queue__JKI_lib_State_Machine.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
@@ -209,7 +212,7 @@
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Red's Auto Clicker.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
