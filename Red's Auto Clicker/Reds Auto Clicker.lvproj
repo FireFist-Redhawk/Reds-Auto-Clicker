@@ -58,20 +58,21 @@
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
 			<Item Name="Alter Macro.vi" Type="VI" URL="../SubVIs/Alter Macro.vi"/>
 			<Item Name="Alter Macro V2.vi" Type="VI" URL="../SubVIs/Alter Macro V2.vi"/>
+			<Item Name="Check for Hotkey Press.vi" Type="VI" URL="../SubVIs/Check for Hotkey Press.vi"/>
 			<Item Name="Convert Hotkey to String.vi" Type="VI" URL="../SubVIs/Convert Hotkey to String.vi"/>
 			<Item Name="Display Data to Table.vi" Type="VI" URL="../SubVIs/Display Data to Table.vi"/>
 			<Item Name="Get Hotkey.vi" Type="VI" URL="../SubVIs/Get Hotkey.vi"/>
 			<Item Name="Is Step in Range.vi" Type="VI" URL="../SubVIs/Is Step in Range.vi"/>
 			<Item Name="Load Macro.vi" Type="VI" URL="../SubVIs/Load Macro.vi"/>
+			<Item Name="Perform Step.vi" Type="VI" URL="../SubVIs/Perform Step.vi"/>
 			<Item Name="Prompt for Step.vi" Type="VI" URL="../SubVIs/Prompt for Step.vi"/>
 			<Item Name="Read Monitor Resolution.vi" Type="VI" URL="../SubVIs/Read Monitor Resolution.vi"/>
 			<Item Name="Save Hotkey.vi" Type="VI" URL="../SubVIs/Save Hotkey.vi"/>
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
 			<Item Name="Settings.vi" Type="VI" URL="../SubVIs/Settings.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
-			<Item Name="Perform Step.vi" Type="VI" URL="../SubVIs/Perform Step.vi"/>
 		</Item>
-		<Item Name="Custom Automation Tool.vi" Type="VI" URL="../Custom Automation Tool.vi"/>
+		<Item Name="Red&apos;s Auto Clicker.vi" Type="VI" URL="../Red&apos;s Auto Clicker.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MGI Append String to Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/Error Handling/MGI Append String to Error Source.vi"/>
