@@ -54,6 +54,7 @@
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
 			<Item Name="Alter Macro.vi" Type="VI" URL="../SubVIs/Alter Macro.vi"/>
 			<Item Name="Alter Macro V2.vi" Type="VI" URL="../SubVIs/Alter Macro V2.vi"/>
+			<Item Name="Change Settings.vi" Type="VI" URL="../SubVIs/Change Settings.vi"/>
 			<Item Name="Check for Hotkey Press.vi" Type="VI" URL="../SubVIs/Check for Hotkey Press.vi"/>
 			<Item Name="Clear Macro Data.vi" Type="VI" URL="../SubVIs/Clear Macro Data.vi"/>
 			<Item Name="Convert Hotkey to String.vi" Type="VI" URL="../SubVIs/Convert Hotkey to String.vi"/>
@@ -66,7 +67,6 @@
 			<Item Name="Read Monitor Resolution.vi" Type="VI" URL="../SubVIs/Read Monitor Resolution.vi"/>
 			<Item Name="Save Hotkey.vi" Type="VI" URL="../SubVIs/Save Hotkey.vi"/>
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
-			<Item Name="Change Settings.vi" Type="VI" URL="../SubVIs/Change Settings.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
 			<Item Name="UI Interlocks.vi" Type="VI" URL="../SubVIs/UI Interlocks.vi"/>
 		</Item>
