@@ -14,13 +14,12 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CTLs" Type="Folder">
-			<Item Name="Dump Stat.ctl" Type="VI" URL="../CTLs/Dump Stat.ctl"/>
 			<Item Name="FGV Actions.ctl" Type="VI" URL="../CTLs/FGV Actions.ctl"/>
 			<Item Name="Hotkey Type.ctl" Type="VI" URL="../CTLs/Hotkey Type.ctl"/>
 			<Item Name="Hotkey Values.ctl" Type="VI" URL="../CTLs/Hotkey Values.ctl"/>
 			<Item Name="Macro Cluster v1.0.ctl" Type="VI" URL="../CTLs/Macro Cluster v1.0.ctl"/>
 			<Item Name="Macro Cluster v2.0.ctl" Type="VI" URL="../CTLs/Macro Cluster v2.0.ctl"/>
-			<Item Name="Main Modes.ctl" Type="VI" URL="../CTLs/Main Modes.ctl"/>
+			<Item Name="Refs.ctl" Type="VI" URL="../CTLs/Refs.ctl"/>
 			<Item Name="State Data.ctl" Type="VI" URL="../CTLs/State Data.ctl"/>
 			<Item Name="Step Type.ctl" Type="VI" URL="../CTLs/Step Type.ctl"/>
 			<Item Name="Step.ctl" Type="VI" URL="../CTLs/Step.ctl"/>
@@ -28,9 +27,6 @@
 		<Item Name="Globals" Type="Folder">
 			<Item Name="Config Paths.vi" Type="VI" URL="../Globals/Config Paths.vi"/>
 			<Item Name="Papirus-Team-Papirus-Apps-Krusader-root.ico" Type="Document" URL="../Globals/Papirus-Team-Papirus-Apps-Krusader-root.ico"/>
-			<Item Name="R-cat.ico" Type="Document" URL="../Globals/R-cat.ico"/>
-			<Item Name="R-cat2.ico" Type="Document" URL="../Globals/R-cat2.ico"/>
-			<Item Name="unnamed.ico" Type="Document" URL="../Globals/unnamed.ico"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -59,6 +55,7 @@
 			<Item Name="Alter Macro.vi" Type="VI" URL="../SubVIs/Alter Macro.vi"/>
 			<Item Name="Alter Macro V2.vi" Type="VI" URL="../SubVIs/Alter Macro V2.vi"/>
 			<Item Name="Check for Hotkey Press.vi" Type="VI" URL="../SubVIs/Check for Hotkey Press.vi"/>
+			<Item Name="Clear Macro Data.vi" Type="VI" URL="../SubVIs/Clear Macro Data.vi"/>
 			<Item Name="Convert Hotkey to String.vi" Type="VI" URL="../SubVIs/Convert Hotkey to String.vi"/>
 			<Item Name="Display Data to Table.vi" Type="VI" URL="../SubVIs/Display Data to Table.vi"/>
 			<Item Name="Get Hotkey.vi" Type="VI" URL="../SubVIs/Get Hotkey.vi"/>
@@ -69,8 +66,9 @@
 			<Item Name="Read Monitor Resolution.vi" Type="VI" URL="../SubVIs/Read Monitor Resolution.vi"/>
 			<Item Name="Save Hotkey.vi" Type="VI" URL="../SubVIs/Save Hotkey.vi"/>
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
-			<Item Name="Settings.vi" Type="VI" URL="../SubVIs/Settings.vi"/>
+			<Item Name="Change Settings.vi" Type="VI" URL="../SubVIs/Change Settings.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
+			<Item Name="UI Interlocks.vi" Type="VI" URL="../SubVIs/UI Interlocks.vi"/>
 		</Item>
 		<Item Name="Red&apos;s Auto Clicker.vi" Type="VI" URL="../Red&apos;s Auto Clicker.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -180,52 +178,49 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Red&apos;s Auto Tool" Type="EXE">
+			<Item Name="Red&apos;s Auto Clicker" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{26ACB03A-B8EF-40D8-AD2D-3D1223A566D1}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{599D924F-7FAC-41D9-82E1-EF643BC5DDD7}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{BA90FB91-B318-4049-BC03-011AAA0B246E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0C59782F-EC67-44A9-81AA-C5619346CCA7}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{282B6794-B0CB-4F95-81A2-5DCC3F896F7A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Red's Auto Tool</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{CD08AA86-E57E-45A7-AD92-F032BF50DB78}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Red's Auto Clicker</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Tool/Red's Auto Tool</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{2979835A-9457-4DA3-B755-F50381C7F089}</Property>
-				<Property Name="Bld_version.build" Type="Int">15</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Red's Auto Tool.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Tool/Red's Auto Tool/Red's Auto Tool.exe</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{26386124-F7C2-4D55-BEB9-6C3BD34C70C7}</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">Red's Auto Clicker.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker/Red's Auto Clicker.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Tool/Red's Auto Tool/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Globals/R-cat2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B8174904-8F36-438D-928F-602B812D6125}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Globals/Papirus-Team-Papirus-Apps-Krusader-root.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{87B46120-980C-40D1-B219-E24D6E70DDB1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Red's Auto Clicker.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref"></Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="TgtF_internalName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="TgtF_productName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{5C9418FD-A2EB-423A-903A-95863ABAED2E}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Red's Auto Tool.exe</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Red's Auto Clicker</Property>
+				<Property Name="TgtF_internalName" Type="Str">Red's Auto Clicker</Property>
+				<Property Name="TgtF_productName" Type="Str">Red's Auto Clicker</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{74F078B1-4FD2-43B9-86B7-557DC928A003}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Red's Auto Clicker.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Red&apos;s Auto Tool Full Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Auto Clicker</Property>
+			<Item Name="Red&apos;s Auto Clicker Full Installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Red's Auto Clicker</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
@@ -274,128 +269,18 @@
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Tool/Red's Auto Tool Full Installer</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Red's Auto Tool Full Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker Full Installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Red's Auto Clicker Full Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
-				<Property Name="INST_productName" Type="Str">Red's Auto Tool</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.4</Property>
-				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">23368006</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
-				<Property Name="MSI_distID" Type="Str">{C4C51753-A5D4-41CA-AD5C-3CBDF8A92E3B}</Property>
-				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{42E0AF78-7FEB-48E9-8B35-69CA78A34BE8}</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Red's Auto Tool.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Red's Auto Tool</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Red's Auto Tool</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{5C9418FD-A2EB-423A-903A-95863ABAED2E}</Property>
-				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Red's Auto Tool</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Red's Auto Tool</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="Red&apos;s Auto-Clicker" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{BA90FB91-B318-4049-BC03-011AAA0B246E}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{0C59782F-EC67-44A9-81AA-C5619346CCA7}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{CD08AA86-E57E-45A7-AD92-F032BF50DB78}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{26386124-F7C2-4D55-BEB9-6C3BD34C70C7}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Red's Auto-Clicker.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker/Red's Auto-Clicker.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Globals/Papirus-Team-Papirus-Apps-Krusader-root.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{87BC0470-268A-475B-BD7D-464D6916170E}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="TgtF_internalName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="TgtF_productName" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{74F078B1-4FD2-43B9-86B7-557DC928A003}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Red's Auto-Clicker.exe</Property>
-				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Red&apos;s Auto-Clicker Full Installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Auto Clicker</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{4B738222-EC8D-49FB-AA20-E1D77AD9F465}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2023 Q3 Patch 6</Property>
-				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI ActiveX Container</Property>
-				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI Logos 23.3</Property>
-				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI mDNS Responder 23.5</Property>
-				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">Math Kernel Libraries 2020</Property>
-				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{9872BBBA-FB96-42A4-80A2-9605AC5CBCF1}</Property>
-				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI TDM Streaming 23.3</Property>
-				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[0].SoftDepCount" Type="Int">7</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{A3DD8CEA-07BB-3EB5-A026-4AB75BDFF807}</Property>
-				<Property Name="DistPartCount" Type="Int">1</Property>
-				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker Full Installer</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Red's Auto-Clicker Full Installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
-				<Property Name="INST_installerName" Type="Str">install.exe</Property>
-				<Property Name="INST_productName" Type="Str">Red's Auto-Clicker</Property>
+				<Property Name="INST_productName" Type="Str">Red's Auto Clicker</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23368006</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{FEC35B86-A05F-4483-96F3-9780C8F92958}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_osCheck" Type="Int">3</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{B7DB5B97-B07F-4A5C-AE1D-3084DD637ED3}</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
@@ -403,37 +288,40 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Red's Auto-Clicker.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Red's Auto Clicker.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Red's Auto-Clicker</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Red's Auto Clicker</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Auto Clicker</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Red's Auto Clicker</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{74F078B1-4FD2-43B9-86B7-557DC928A003}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Red's Auto-Clicker</Property>
+				<Property Name="Source[0].name" Type="Str">Red's Auto Clicker</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Red's Auto Clicker</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
-			<Item Name="Red&apos;s Auto-Clicker Updater" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Auto Clicker</Property>
+			<Item Name="Red&apos;s Auto Clicker Updater" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Red's Auto Clicker</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto-Clicker/Red's Auto-Clicker Updater</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Red's Auto-Clicker Updater</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Clicker/Red's Auto Clicker Updater</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Red's Auto Clicker Updater</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
-				<Property Name="INST_productName" Type="Str">Red's Auto-Clicker</Property>
+				<Property Name="INST_productName" Type="Str">Red's Auto Clicker</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.18</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23368006</Property>
 				<Property Name="MSI_distID" Type="Str">{8FBD55A1-51C7-4B09-A124-86BD687E501E}</Property>
 				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_osCheck" Type="Int">3</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{F78BBDFE-9654-42EE-B239-19451CCAE385}</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
@@ -441,18 +329,18 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Red's Auto-Clicker.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Red's Auto Clicker.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Red's Auto-Clicker</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Red's Auto Clicker</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Auto Clicker</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].destIndex" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Red's Auto-Clicker</Property>
+				<Property Name="Source[0].File[0].Shortcut[1].name" Type="Str">Red's Auto Clicker</Property>
 				<Property Name="Source[0].File[0].Shortcut[1].subDir" Type="Str"></Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">2</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{74F078B1-4FD2-43B9-86B7-557DC928A003}</Property>
 				<Property Name="Source[0].FileCount" Type="Int">1</Property>
-				<Property Name="Source[0].name" Type="Str">Red's Auto-Clicker</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Red's Auto-Clicker</Property>
+				<Property Name="Source[0].name" Type="Str">Red's Auto Clicker</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Red's Auto Clicker</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
