@@ -309,7 +309,7 @@
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Clicker/Red's Auto Clicker Updater</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker Updater</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Red's Auto Clicker Updater</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
