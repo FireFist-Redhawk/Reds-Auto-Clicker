@@ -193,7 +193,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{26386124-F7C2-4D55-BEB9-6C3BD34C70C7}</Property>
-				<Property Name="Bld_version.build" Type="Int">18</Property>
+				<Property Name="Bld_version.build" Type="Int">19</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Red's Auto Clicker.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker/Red's Auto Clicker.exe</Property>
@@ -205,7 +205,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Globals/Papirus-Team-Papirus-Apps-Krusader-root.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{87B46120-980C-40D1-B219-E24D6E70DDB1}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5960C754-B401-4A84-BB11-5B99E593B7A4}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Red's Auto Clicker.vi</Property>
@@ -268,13 +268,12 @@
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{A3DD8CEA-07BB-3EB5-A026-4AB75BDFF807}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker Full Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Red's Auto Clicker Full Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Red's Auto Clicker</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23368006</Property>
 				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
@@ -310,13 +309,12 @@
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Virginia Polytechnic Institute and State University</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">/C/Users/User/Documents/LabVIEW Data/builds/Red's Auto Clicker/Red's Auto Clicker Updater</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Red's Auto Clicker Updater</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9CDA4A8D-380A-4154-8ADF-578407CE9A6A}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">Red's Auto Clicker</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.18</Property>
+				<Property Name="INST_productVersion" Type="Str">2.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">23368006</Property>
 				<Property Name="MSI_distID" Type="Str">{8FBD55A1-51C7-4B09-A124-86BD687E501E}</Property>
