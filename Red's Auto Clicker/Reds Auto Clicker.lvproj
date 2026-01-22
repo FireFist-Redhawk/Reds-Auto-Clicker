@@ -51,6 +51,71 @@
 				<Item Name="Mouse Move.vi" Type="VI" URL="../SubVIs/KBM Simulation/Mouse Move.vi"/>
 				<Item Name="Mouse Up.vi" Type="VI" URL="../SubVIs/KBM Simulation/Mouse Up.vi"/>
 			</Item>
+			<Item Name="labview_win_util32_8.6" Type="Folder">
+				<Item Name="Winevent" Type="Folder">
+					<Item Name="Call WinHelp.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Call WinHelp.vi"/>
+					<Item Name="Exit Windows.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Exit Windows.vi"/>
+					<Item Name="Extract Window Names.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Extract Window Names.vi"/>
+					<Item Name="FileMan Open File.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/FileMan Open File.vi"/>
+					<Item Name="FileMan Print File.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/FileMan Print File.vi"/>
+					<Item Name="Get Task List.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Get Task List.vi"/>
+					<Item Name="Guess Module Name.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Guess Module Name.vi"/>
+					<Item Name="Message Window Dialog Box w/ Sound.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Message Window Dialog Box w/ Sound.vi"/>
+					<Item Name="Quit Application.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Quit Application.vi"/>
+					<Item Name="Run Application.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Run Application.vi"/>
+					<Item Name="ShellExec Master.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/ShellExec Master.vi"/>
+					<Item Name="Show Windows Task List.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Show Windows Task List.vi"/>
+					<Item Name="Start Windows Screen Saver.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/Start Windows Screen Saver.vi"/>
+					<Item Name="System Exec+.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/System Exec+.vi"/>
+					<Item Name="WinUtil Master.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winevent.llb/WinUtil Master.vi"/>
+				</Item>
+				<Item Name="WINKEY" Type="Folder">
+					<Item Name="Install Keyboard Filter.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINKEY.LLB/Install Keyboard Filter.vi"/>
+					<Item Name="Keyboard Filter Master.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINKEY.LLB/Keyboard Filter Master.vi"/>
+					<Item Name="Remove Keyboard Filter.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINKEY.LLB/Remove Keyboard Filter.vi"/>
+				</Item>
+				<Item Name="WINNET" Type="Folder">
+					<Item Name="Add Network Resource.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINNET.LLB/Add Network Resource.vi"/>
+					<Item Name="Disconnect Network Resource.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINNET.LLB/Disconnect Network Resource.vi"/>
+				</Item>
+				<Item Name="Winsys" Type="Folder">
+					<Item Name="Get Cursor Position.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winsys.llb/Get Cursor Position.vi"/>
+					<Item Name="Get Screen Size.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winsys.llb/Get Screen Size.vi"/>
+					<Item Name="Get System Path.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winsys.llb/Get System Path.vi"/>
+					<Item Name="Get Windows Path.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winsys.llb/Get Windows Path.vi"/>
+					<Item Name="Screen Saver Control.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winsys.llb/Screen Saver Control.vi"/>
+					<Item Name="System Information.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winsys.llb/System Information.vi"/>
+				</Item>
+				<Item Name="WINUTIL" Type="Folder">
+					<Item Name="Extract Window Origin / Size.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Extract Window Origin / Size.vi"/>
+					<Item Name="Flash Title Bar.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Flash Title Bar.vi"/>
+					<Item Name="Generate String Buffer.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Generate String Buffer.vi"/>
+					<Item Name="Get Window Name.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Get Window Name.vi"/>
+					<Item Name="Get Window Rectangle.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Get Window Rectangle.vi"/>
+					<Item Name="Get Window RefNum.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Get Window RefNum.vi"/>
+					<Item Name="Hide Window.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Hide Window.vi"/>
+					<Item Name="Make Window Always on Top.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Make Window Always on Top.vi"/>
+					<Item Name="Maximize Window.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Maximize Window.vi"/>
+					<Item Name="Minimize Window.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Minimize Window.vi"/>
+					<Item Name="Move Window to Bottom.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Move Window to Bottom.vi"/>
+					<Item Name="Move Window to Top.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Move Window to Top.vi"/>
+					<Item Name="Move Window.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Move Window.vi"/>
+					<Item Name="Not a Window Refnum" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Not a Window Refnum"/>
+					<Item Name="PostMessage Master.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/PostMessage Master.vi"/>
+					<Item Name="Rename Window.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Rename Window.vi"/>
+					<Item Name="Resize Window.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Resize Window.vi"/>
+					<Item Name="Restore Window.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Restore Window.vi"/>
+					<Item Name="Revoke Window Always on Top.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Revoke Window Always on Top.vi"/>
+					<Item Name="Set Window Z-Position.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Set Window Z-Position.vi"/>
+					<Item Name="Show Window.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Show Window.vi"/>
+					<Item Name="Window Rectangle.ctl" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Window Rectangle.ctl"/>
+					<Item Name="Window Refnum" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Window Refnum"/>
+				</Item>
+				<Item Name="00README.TXT" Type="Document" URL="../SubVIs/labview_win_util32_8.6/00README.TXT"/>
+				<Item Name="LVWUtil32.dll" Type="Document" URL="../SubVIs/labview_win_util32_8.6/LVWUtil32.dll"/>
+				<Item Name="MANUAL.WRI" Type="Document" URL="../SubVIs/labview_win_util32_8.6/MANUAL.WRI"/>
+				<Item Name="Readme.doc" Type="Document" URL="../SubVIs/labview_win_util32_8.6/Readme.doc"/>
+			</Item>
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
 			<Item Name="Alter Macro.vi" Type="VI" URL="../SubVIs/Alter Macro.vi"/>
 			<Item Name="Alter Macro V2.vi" Type="VI" URL="../SubVIs/Alter Macro V2.vi"/>
@@ -166,7 +231,16 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
+			<Item Name="MPR.DLL" Type="Document" URL="MPR.DLL">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SHELL32.DLL" Type="Document" URL="SHELL32.DLL">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
