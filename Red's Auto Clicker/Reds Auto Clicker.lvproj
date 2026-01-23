@@ -17,12 +17,15 @@
 			<Item Name="FGV Actions.ctl" Type="VI" URL="../CTLs/FGV Actions.ctl"/>
 			<Item Name="Hotkey Type.ctl" Type="VI" URL="../CTLs/Hotkey Type.ctl"/>
 			<Item Name="Hotkey Values.ctl" Type="VI" URL="../CTLs/Hotkey Values.ctl"/>
-			<Item Name="Macro Cluster v1.0.ctl" Type="VI" URL="../CTLs/Macro Cluster v1.0.ctl"/>
-			<Item Name="Macro Cluster v2.0.ctl" Type="VI" URL="../CTLs/Macro Cluster v2.0.ctl"/>
+			<Item Name="Macro Cluster V1.ctl" Type="VI" URL="../CTLs/Macro Cluster V1.ctl"/>
+			<Item Name="Macro Cluster V2.ctl" Type="VI" URL="../CTLs/Macro Cluster V2.ctl"/>
+			<Item Name="Macro Cluster V3.ctl" Type="VI" URL="../CTLs/Macro Cluster V3.ctl"/>
 			<Item Name="Refs.ctl" Type="VI" URL="../CTLs/Refs.ctl"/>
 			<Item Name="State Data.ctl" Type="VI" URL="../CTLs/State Data.ctl"/>
-			<Item Name="Step Type.ctl" Type="VI" URL="../CTLs/Step Type.ctl"/>
-			<Item Name="Step.ctl" Type="VI" URL="../CTLs/Step.ctl"/>
+			<Item Name="Step Type V1-2.ctl" Type="VI" URL="../CTLs/Step Type V1-2.ctl"/>
+			<Item Name="Step Type V3.ctl" Type="VI" URL="../CTLs/Step Type V3.ctl"/>
+			<Item Name="Step V1-2.ctl" Type="VI" URL="../CTLs/Step V1-2.ctl"/>
+			<Item Name="Step V3.ctl" Type="VI" URL="../CTLs/Step V3.ctl"/>
 		</Item>
 		<Item Name="Globals" Type="Folder">
 			<Item Name="Config Paths.vi" Type="VI" URL="../Globals/Config Paths.vi"/>
@@ -134,6 +137,7 @@
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
 			<Item Name="UI Interlocks.vi" Type="VI" URL="../SubVIs/UI Interlocks.vi"/>
+			<Item Name="Convert Metadata to String.vi" Type="VI" URL="../SubVIs/Convert Metadata to String.vi"/>
 		</Item>
 		<Item Name="Red&apos;s Auto Clicker.vi" Type="VI" URL="../Red&apos;s Auto Clicker.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
