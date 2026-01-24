@@ -17,6 +17,6 @@ Red's Auto Clicker is an open-source process automation tool that allows you to 
 
 The source code currently requires OpenG Toolkit and MGI Library to be installed via VI Package Manager. If these packages are already installed, no further action is required. If not, follow these steps in order to install these required dependencies:
 
-1. Find `Dependency Installer.vip` in the repo files.
-2. Install the package by double-clicking it and following the prompts in VIPM.
-3. Verify the installation by launching LabVIEW, navigating to `Red's Auto Clicker.lvproj', and opening it.
+1. Open VIPM.
+2. Find and install the latest versions of OpenG Toolkit and MGI Library.
+3. Verify the installations by launching LabVIEW, navigating to `Red's Auto Clicker.lvproj', and opening it.
