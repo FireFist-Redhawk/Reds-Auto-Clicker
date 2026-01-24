@@ -1,18 +1,13 @@
 # Reds-Auto-Clicker
 
-My first open-source project! Install the dependencies, look through the code, and learn a little about LabVIEW if you want. If you start getting dangerous with it, feel free to add feature requests, or even add your own features and submit a pull request for me to review. Software development is a whole lot funner when it's paired with one's hobbies! Or if you'd rather just get going, simply go to the Releases page and download the installer for the compiled executable.
+Red's Auto Clicker is an open-source process automation tool that allows you to create macros consisting of many types of possible actions. Tedious processes can be automated with fine-grain control over the timing of each individual step. If you find this tool useful, please consider starring the repo to show your support. If you find a bug or would like to make a suggestion, [create an issue](https://github.com/FireFist-Redhawk/Reds-Auto-Clicker/issues/new/choose) to let me know about it.
+
+## System Requirements
+- Windows 10 or higher
+- Executable only: 640 MB of free disk space
+- Development environment: 5 GB of free disk space
 
 ## Software Requirements - Full Development Environment
-- LabVIEW 2023 or higher
+- LabVIEW 2023 or higher ([LabVIEW 2023 System Requirements](https://www.ni.com/pdf/manuals/lv-2023-q1.html#requirements))
 - VI Package Manager 2024 or higher
-- Latest version of Dependency Installer.vip (installs OpenG and MGI toolkits)
-
-## System Requirements - Full Development Environment
-- Windows 10 or higher
-- Approximately 5GB of free space on disk
-- Executable Only: Approximately 400MB of free space on disk (LabVIEW Runtime Engine)
-- See more at https://www.ni.com/en-us/support/documentation/supplemental/17/system-requirements-for-labview-development-systems-and-modules.html#section-153124100
-
-## System Requirements - Executable Only
-- Windows 7 or higher
-- Approximately 400MB of free space on disk (LabVIEW Runtime Engine)
+- Latest version of `Dependency Installer.vip` (installs OpenG and MGI toolkits)
