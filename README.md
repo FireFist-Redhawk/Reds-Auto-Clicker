@@ -19,4 +19,4 @@ The source code currently requires OpenG Toolkit and MGI Library to be installed
 
 1. Open VIPM.
 2. Find and install the latest versions of OpenG Toolkit and MGI Library.
-3. Verify the installations by launching LabVIEW, navigating to `Red's Auto Clicker.lvproj', and opening it.
+3. Verify the installations by launching LabVIEW, navigating to `Red's Auto Clicker.lvproj`, opening it, and attempting to open `Red's Auto Clicker.vi`.
