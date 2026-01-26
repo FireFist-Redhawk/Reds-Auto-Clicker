@@ -20,6 +20,7 @@
 			<Item Name="Macro Cluster V1.ctl" Type="VI" URL="../CTLs/Macro Cluster V1.ctl"/>
 			<Item Name="Macro Cluster V2.ctl" Type="VI" URL="../CTLs/Macro Cluster V2.ctl"/>
 			<Item Name="Macro Cluster V3.ctl" Type="VI" URL="../CTLs/Macro Cluster V3.ctl"/>
+			<Item Name="Macro Config V3.ctl" Type="VI" URL="../CTLs/Macro Config V3.ctl"/>
 			<Item Name="Refs.ctl" Type="VI" URL="../CTLs/Refs.ctl"/>
 			<Item Name="State Data.ctl" Type="VI" URL="../CTLs/State Data.ctl"/>
 			<Item Name="Step Type V1-2.ctl" Type="VI" URL="../CTLs/Step Type V1-2.ctl"/>
@@ -151,6 +152,7 @@
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
 			<Item Name="UI Interlocks.vi" Type="VI" URL="../SubVIs/UI Interlocks.vi"/>
+			<Item Name="Delete Macro.vi" Type="VI" URL="../SubVIs/Delete Macro.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Config Migration.vi" Type="VI" URL="../SubVIs/Tests/Test Config Migration.vi"/>
