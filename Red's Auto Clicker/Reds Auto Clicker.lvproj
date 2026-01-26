@@ -28,8 +28,10 @@
 			<Item Name="Step V3.ctl" Type="VI" URL="../CTLs/Step V3.ctl"/>
 		</Item>
 		<Item Name="Globals" Type="Folder">
+			<Item Name="App Config INI.vi" Type="VI" URL="../Globals/App Config INI.vi"/>
 			<Item Name="App Data Directory.vi" Type="VI" URL="../Globals/App Data Directory.vi"/>
 			<Item Name="Config Paths.vi" Type="VI" URL="../Globals/Config Paths.vi"/>
+			<Item Name="Default Hotkey.vi" Type="VI" URL="../Globals/Default Hotkey.vi"/>
 			<Item Name="Papirus-Team-Papirus-Apps-Krusader-root.ico" Type="Document" URL="../Globals/Papirus-Team-Papirus-Apps-Krusader-root.ico"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -135,6 +137,7 @@
 			<Item Name="Is Step in Range.vi" Type="VI" URL="../SubVIs/Is Step in Range.vi"/>
 			<Item Name="Load Macro.vi" Type="VI" URL="../SubVIs/Load Macro.vi"/>
 			<Item Name="Migrate Global Config.vi" Type="VI" URL="../SubVIs/Migrate Global Config.vi"/>
+			<Item Name="Migrate Process Config.vi" Type="VI" URL="../SubVIs/Migrate Process Config.vi"/>
 			<Item Name="Perform Step.vi" Type="VI" URL="../SubVIs/Perform Step.vi"/>
 			<Item Name="Prompt for Step.vi" Type="VI" URL="../SubVIs/Prompt for Step.vi"/>
 			<Item Name="Read Macro Config.vi" Type="VI" URL="../SubVIs/Read Macro Config.vi"/>
@@ -148,6 +151,9 @@
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
 			<Item Name="UI Interlocks.vi" Type="VI" URL="../SubVIs/UI Interlocks.vi"/>
+		</Item>
+		<Item Name="Tests" Type="Folder">
+			<Item Name="Test Config Migration.vi" Type="VI" URL="../SubVIs/Tests/Test Config Migration.vi"/>
 		</Item>
 		<Item Name="Red&apos;s Auto Clicker.vi" Type="VI" URL="../Red&apos;s Auto Clicker.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
