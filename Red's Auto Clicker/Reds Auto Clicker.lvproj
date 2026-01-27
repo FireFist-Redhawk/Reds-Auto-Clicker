@@ -126,12 +126,14 @@
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
 			<Item Name="Alter Macro V2.vi" Type="VI" URL="../SubVIs/Alter Macro V2.vi"/>
 			<Item Name="Alter Macro.vi" Type="VI" URL="../SubVIs/Alter Macro.vi"/>
+			<Item Name="Build Status Message.vi" Type="VI" URL="../SubVIs/Build Status Message.vi"/>
 			<Item Name="Change Settings.vi" Type="VI" URL="../SubVIs/Change Settings.vi"/>
 			<Item Name="Check for Hotkey Press.vi" Type="VI" URL="../SubVIs/Check for Hotkey Press.vi"/>
 			<Item Name="Clear Macro Data.vi" Type="VI" URL="../SubVIs/Clear Macro Data.vi"/>
 			<Item Name="Clear Macro Sections.vi" Type="VI" URL="../SubVIs/Clear Macro Sections.vi"/>
 			<Item Name="Convert Hotkey to String.vi" Type="VI" URL="../SubVIs/Convert Hotkey to String.vi"/>
 			<Item Name="Convert Metadata to String.vi" Type="VI" URL="../SubVIs/Convert Metadata to String.vi"/>
+			<Item Name="Delete Macro.vi" Type="VI" URL="../SubVIs/Delete Macro.vi"/>
 			<Item Name="Display Data to Table.vi" Type="VI" URL="../SubVIs/Display Data to Table.vi"/>
 			<Item Name="Get Hotkey.vi" Type="VI" URL="../SubVIs/Get Hotkey.vi"/>
 			<Item Name="Get Monitor Configuration.vi" Type="VI" URL="../SubVIs/Get Monitor Configuration.vi"/>
@@ -152,7 +154,6 @@
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
 			<Item Name="UI Interlocks.vi" Type="VI" URL="../SubVIs/UI Interlocks.vi"/>
-			<Item Name="Delete Macro.vi" Type="VI" URL="../SubVIs/Delete Macro.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Config Migration.vi" Type="VI" URL="../SubVIs/Tests/Test Config Migration.vi"/>
