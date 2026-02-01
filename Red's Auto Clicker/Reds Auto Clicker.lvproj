@@ -33,6 +33,7 @@
 			<Item Name="App Data Directory.vi" Type="VI" URL="../Globals/App Data Directory.vi"/>
 			<Item Name="Config Paths.vi" Type="VI" URL="../Globals/Config Paths.vi"/>
 			<Item Name="Default Hotkey.vi" Type="VI" URL="../Globals/Default Hotkey.vi"/>
+			<Item Name="Macro Schema Version.vi" Type="VI" URL="../Globals/Macro Schema Version.vi"/>
 			<Item Name="Papirus-Team-Papirus-Apps-Krusader-root.ico" Type="Document" URL="../Globals/Papirus-Team-Papirus-Apps-Krusader-root.ico"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
@@ -126,6 +127,7 @@
 			<Item Name="FaKI State Machine.lvlib" Type="Library" URL="../SubVIs/FaKI State Machine/FaKI State Machine.lvlib"/>
 			<Item Name="Alter Macro V2.vi" Type="VI" URL="../SubVIs/Alter Macro V2.vi"/>
 			<Item Name="Alter Macro.vi" Type="VI" URL="../SubVIs/Alter Macro.vi"/>
+			<Item Name="Build Path to Macro.vi" Type="VI" URL="../SubVIs/Build Path to Macro.vi"/>
 			<Item Name="Build Status Message.vi" Type="VI" URL="../SubVIs/Build Status Message.vi"/>
 			<Item Name="Change Settings.vi" Type="VI" URL="../SubVIs/Change Settings.vi"/>
 			<Item Name="Check for Hotkey Press.vi" Type="VI" URL="../SubVIs/Check for Hotkey Press.vi"/>
@@ -254,6 +256,7 @@
 				<Item Name="Split String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Split String.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
@@ -300,7 +303,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{26386124-F7C2-4D55-BEB9-6C3BD34C70C7}</Property>
-				<Property Name="Bld_version.build" Type="Int">21</Property>
+				<Property Name="Bld_version.build" Type="Int">23</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Red's Auto Clicker.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/User/Documents/LabVIEW Data/Projects/builds/Red's Auto Clicker/Red's Auto Clicker/Red's Auto Clicker.exe</Property>
