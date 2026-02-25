@@ -1,4 +1,4 @@
-# Reds-Auto-Clicker <img align="left" width="48" height="48" src="Images/Papirus-Team-Papirus-Apps-Krusader-root.64.png">
+# Reds-Auto-Clicker <img align="left" width="48" height="48" src="docs/images/Papirus-Team-Papirus-Apps-Krusader-root.64.png">
 
 ## 💡 Overview
 
