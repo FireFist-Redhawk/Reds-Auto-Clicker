@@ -95,9 +95,12 @@
 					<Item Name="System Information.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/Winsys.llb/System Information.vi"/>
 				</Item>
 				<Item Name="WINUTIL" Type="Folder">
+					<Item Name="Client to Screen.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Client to Screen.vi"/>
 					<Item Name="Extract Window Origin / Size.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Extract Window Origin / Size.vi"/>
 					<Item Name="Flash Title Bar.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Flash Title Bar.vi"/>
 					<Item Name="Generate String Buffer.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Generate String Buffer.vi"/>
+					<Item Name="Get Client Rectangle.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Get Client Rectangle.vi"/>
+					<Item Name="Get Window DPI.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Get Window DPI.vi"/>
 					<Item Name="Get Window Name.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Get Window Name.vi"/>
 					<Item Name="Get Window Rectangle.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Get Window Rectangle.vi"/>
 					<Item Name="Get Window RefNum.vi" Type="VI" URL="../SubVIs/labview_win_util32_8.6/WINUTIL.LLB/Get Window RefNum.vi"/>
@@ -156,6 +159,7 @@
 			<Item Name="Save Macro.vi" Type="VI" URL="../SubVIs/Save Macro.vi"/>
 			<Item Name="Timer FGV.vi" Type="VI" URL="../SubVIs/Timer FGV.vi"/>
 			<Item Name="UI Interlocks.vi" Type="VI" URL="../SubVIs/UI Interlocks.vi"/>
+			<Item Name="Get Image Portion.vi" Type="VI" URL="../SubVIs/Get Image Portion.vi"/>
 		</Item>
 		<Item Name="Tests" Type="Folder">
 			<Item Name="Test Config Migration.vi" Type="VI" URL="../SubVIs/Tests/Test Config Migration.vi"/>
@@ -272,6 +276,9 @@
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="lvinput.dll" Type="Document" URL="/&lt;resource&gt;/lvinput.dll"/>
 			<Item Name="MPR.DLL" Type="Document" URL="MPR.DLL">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SHCore.dll" Type="Document" URL="SHCore.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SHELL32.DLL" Type="Document" URL="SHELL32.DLL">
